@@ -1,0 +1,33 @@
+nsergeevich@nsergeevich-VirtualBox:~/Documents$ history
+    1  cd /home/nsergeevich/Documents
+    2  cat pet_animals.txt
+    3  cat > pet_animals.txt
+    4  ls -l pet_animals.txt
+    5  cat pack_animals.txt
+    6  cat > pack_animals.txt
+    7  ls -l pet_animals.txt
+    8  cat pet_animals.txt pack_animals.txt > animals.txt
+    9  ls -l animals.txt
+   10  cat animals.txt
+   11  mv animals.txt man's_friends.txt
+   12  mv animals.txt mans_friends.txt
+   13  ls -l mans_friends.txt
+   14  cat mans_friends.txt
+   15  mkdir new_dir
+   16  mv mans_friends.txt new_dir
+   17  ls new_dir
+   18  history
+   19  sudo apt-get update
+   20  sudo apt-get install software-properties-common
+   21  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8C718D3B5072E1F5
+   22  sudo add-apt-repository 'deb [arch=amd64] http://repo.mysql.com/apt/ubuntu bionic mysql-8.0'
+   23  sudo apt-get update
+   24  sudo apt-get install mysql-server mysql-client
+   25  apt list --installed
+   26  apt list --installed | grep mysql-server
+   27  sudo dpkg -i google-chrome-stable_120.0.6099.129-1_amd64.deb
+   28  sudo dpkg -r google-chrome-stable_120.0.6099.129-1_amd64.deb
+   29  apt list --installed | grep google-chrome-stable
+   30  sudo dpkg -r google-chrome-stable
+   31  History
+   32  history
