@@ -3,6 +3,14 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Caballo.cpp"/>
+    <File Name="Caballo.h"/>
+    <File Name="Pack_Animals.cpp"/>
+    <File Name="Pack_Animals.h"/>
+    <File Name="I_Print.cpp"/>
+    <File Name="I_Print.h"/>
+    <File Name="Animals.cpp"/>
+    <File Name="Animals.h"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">

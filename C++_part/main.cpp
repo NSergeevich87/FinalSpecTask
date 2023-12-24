@@ -1,25 +1,26 @@
 #include <iostream>
+#include "Caballo.h"
 
 using namespace std;
 
-class Base
-{
-	public:
-		int a{};
-		void display() { cout << "a : " << a << " b : " << b << " c : " << endl; }
-	
-	protected:
-		int b{};
-		
-	private:
-		int c{};
-};
-
 int main()
-{
-	Base base1;
-	base1.a = 100;
-	base1.display();
+{   
+    Caballo Mustang2 {"Mus", "10.10.2020"};
+    Caballo Mustang3 {"Mus"};
+    Caballo Mustang4 {};
+    
+    cout << Mustang2 << endl;
+    
+    Mustang2.show_commands();
+    Mustang2.play_command(0);
+    
+    for(auto i = 0; i < 5; ++i)
+    {
+        Mustang2.add_command("Run");
+    }
+    
+    Mustang2.show_commands();
+    
 	
 	cout << endl;
 	return 0;
