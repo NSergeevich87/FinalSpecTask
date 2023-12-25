@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Professional
-Date                   :=24/12/2023
+Date                   :=25/12/2023
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -64,7 +64,7 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/Caballo.cpp$(ObjectSuffix) $(IntermediateDirectory)/Pack_Animals.cpp$(ObjectSuffix) $(IntermediateDirectory)/I_Print.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Animals.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Base_Animals.cpp$(ObjectSuffix) $(IntermediateDirectory)/Answer_Work.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Animals.cpp$(ObjectSuffix) $(IntermediateDirectory)/Print_Menu.cpp$(ObjectSuffix) $(IntermediateDirectory)/I_Print.cpp$(ObjectSuffix) $(IntermediateDirectory)/Pack_Animals.cpp$(ObjectSuffix) $(IntermediateDirectory)/Caballo.cpp$(ObjectSuffix) 
 
 
 
@@ -95,20 +95,15 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Caballo.cpp$(ObjectSuffix): Caballo.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Caballo.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Caballo.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Caballo.cpp$(PreprocessSuffix): Caballo.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Caballo.cpp$(PreprocessSuffix) Caballo.cpp
+$(IntermediateDirectory)/Base_Animals.cpp$(ObjectSuffix): Base_Animals.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Base_Animals.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Base_Animals.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Base_Animals.cpp$(PreprocessSuffix): Base_Animals.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Base_Animals.cpp$(PreprocessSuffix) Base_Animals.cpp
 
-$(IntermediateDirectory)/Pack_Animals.cpp$(ObjectSuffix): Pack_Animals.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Pack_Animals.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Pack_Animals.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Pack_Animals.cpp$(PreprocessSuffix): Pack_Animals.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Pack_Animals.cpp$(PreprocessSuffix) Pack_Animals.cpp
-
-$(IntermediateDirectory)/I_Print.cpp$(ObjectSuffix): I_Print.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/I_Print.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/I_Print.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/I_Print.cpp$(PreprocessSuffix): I_Print.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/I_Print.cpp$(PreprocessSuffix) I_Print.cpp
+$(IntermediateDirectory)/Answer_Work.cpp$(ObjectSuffix): Answer_Work.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Answer_Work.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Answer_Work.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Answer_Work.cpp$(PreprocessSuffix): Answer_Work.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Answer_Work.cpp$(PreprocessSuffix) Answer_Work.cpp
 
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
@@ -119,6 +114,26 @@ $(IntermediateDirectory)/Animals.cpp$(ObjectSuffix): Animals.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Animals.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Animals.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Animals.cpp$(PreprocessSuffix): Animals.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Animals.cpp$(PreprocessSuffix) Animals.cpp
+
+$(IntermediateDirectory)/Print_Menu.cpp$(ObjectSuffix): Print_Menu.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Print_Menu.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Print_Menu.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Print_Menu.cpp$(PreprocessSuffix): Print_Menu.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Print_Menu.cpp$(PreprocessSuffix) Print_Menu.cpp
+
+$(IntermediateDirectory)/I_Print.cpp$(ObjectSuffix): I_Print.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/I_Print.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/I_Print.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/I_Print.cpp$(PreprocessSuffix): I_Print.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/I_Print.cpp$(PreprocessSuffix) I_Print.cpp
+
+$(IntermediateDirectory)/Pack_Animals.cpp$(ObjectSuffix): Pack_Animals.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Pack_Animals.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Pack_Animals.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Pack_Animals.cpp$(PreprocessSuffix): Pack_Animals.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Pack_Animals.cpp$(PreprocessSuffix) Pack_Animals.cpp
+
+$(IntermediateDirectory)/Caballo.cpp$(ObjectSuffix): Caballo.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Professional/Documents/C++ All Projects/FinalSpecTask/C++_part/Caballo.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Caballo.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Caballo.cpp$(PreprocessSuffix): Caballo.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Caballo.cpp$(PreprocessSuffix) Caballo.cpp
 
 ##
 ## Clean

@@ -1,27 +1,37 @@
 #include <iostream>
+#include "Base_Animals.h"
+#include "Print_Menu.h"
+#include "Answer_Work.h"
 #include "Caballo.h"
+#include <iomanip>
 
 using namespace std;
 
+void add_some_animals()
+{
+    Caballo n1 {"Mustang", "10-10-2020"};
+    caballos.push_back(n1);
+}
+
 int main()
 {   
-    Caballo Mustang2 {"Mus", "10.10.2020"};
-    Caballo Mustang3 {"Mus"};
-    Caballo Mustang4 {};
+    add_some_animals();
+    const int field{63};
+    bool exit = false;
+    int answer{};
     
-    cout << Mustang2 << endl;
-    
-    Mustang2.show_commands();
-    Mustang2.play_command(0);
-    
-    for(auto i = 0; i < 5; ++i)
+    cout << "\n" << setw((field - 22) / 2) << "" << "Welcome to my program!\n" << endl;
+    do
     {
-        Mustang2.add_command("Run");
-    }
+        answer = print();
+        if(answer == 0) exit = true;
+        else work_with_answer(answer);
+            
+    } while (!exit);
     
-    Mustang2.show_commands();
+    cout << "\nGoodbye...." << endl;
     
-	
 	cout << endl;
 	return 0;
-}		
+}
+

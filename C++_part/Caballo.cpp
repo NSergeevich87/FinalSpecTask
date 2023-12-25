@@ -8,31 +8,35 @@ Caballo::Caballo(std::string name_val, std::string birthday_val) : Pack_Animals(
 
 void Caballo::print (std::ostream &os) const
 {
+    
     os << "Caballo: " << name << " " << birthday;
 }
 
 void Caballo::add_command(std::string value)
 {
-    std::string new_command = value;
-    for(size_t i = 0; i < new_command.length(); i++)
+    std::string new_command{};
+    for(size_t i = 0; i < value.length(); i++)
     {
-        new_command[i] = tolower(new_command[i]);
+        new_command += tolower(value[i]);
     }
+    std::cout << new_command << std::endl;
     
     for(auto c : commands)
     {
-        std::string temp = c;
-        
+        std::string temp{};
+        for(size_t i = 0; i < c.length(); i++)
+        {
+            temp += tolower(c[i]);
+        }
         
         if(new_command == temp)
         {
             std::cout << "This command already exist" << std::endl;
             return;
         }
-        else commands.push_back(value);
     }
     
-    
+    commands.push_back(value);
 }
 
 void Caballo::show_commands() const
