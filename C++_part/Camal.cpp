@@ -1,4 +1,5 @@
 #include "Camal.h"
+#include <iomanip>
 
 Camal::Camal(std::string name_val, std::string birthday_val) : Pack_Animals(name_val, birthday_val)
 {
@@ -8,7 +9,11 @@ Camal::Camal(std::string name_val, std::string birthday_val) : Pack_Animals(name
 void Camal::print (std::ostream &os) const
 {
     
-    os << "Camal: " << name << " " << birthday;
+    const int l_f{12};
+    const int r_f{50};
+    
+    os << std::setw(l_f) << std::left << "Camal ->" 
+       << std::setw(r_f) << std::right << name + " " + birthday;
 }
 
 void Camal::add_command(std::string value)

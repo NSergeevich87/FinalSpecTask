@@ -3,6 +3,16 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Hamster.cpp"/>
+    <File Name="Hamster.h"/>
+    <File Name="Cat.cpp"/>
+    <File Name="Cat.h"/>
+    <File Name="Pat_Animals.cpp"/>
+    <File Name="Pat_Animals.h"/>
+    <File Name="Dog.cpp"/>
+    <File Name="Dog.h"/>
+    <File Name="Donkey.cpp"/>
+    <File Name="Donkey.h"/>
     <File Name="Camal.cpp"/>
     <File Name="Camal.h"/>
     <File Name="Print_Menu.cpp"/>

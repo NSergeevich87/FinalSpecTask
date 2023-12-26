@@ -1,4 +1,5 @@
 #include "Caballo.h"
+#include <iomanip>
 
 Caballo::Caballo(std::string name_val, std::string birthday_val) : Pack_Animals(name_val, birthday_val)
 {
@@ -8,8 +9,11 @@ Caballo::Caballo(std::string name_val, std::string birthday_val) : Pack_Animals(
 
 void Caballo::print (std::ostream &os) const
 {
+    const int l_f{12};
+    const int r_f{50};
     
-    os << "Caballo: " << name << " " << birthday;
+    os << std::setw(l_f) << std::left << "Caballo ->" 
+       << std::setw(r_f) << std::right << name + " " + birthday;
 }
 
 void Caballo::add_command(std::string value)

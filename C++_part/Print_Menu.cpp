@@ -15,7 +15,7 @@ int print()
     cout << setfill(' ') << endl;
     cout << setw(left_f) << left << "Enter: 1" << setw(right_f) << right << "to see all the animals of the reserve" << endl;
     cout << setw(left_f) << left << "Enter: 2" << setw(right_f) << right << "to add a new Animal" << endl;
-    cout << setw(left_f) << left << "Enter: 3" << setw(right_f) << right << "to show all commands of an Animal" << endl;
+    cout << setw(left_f) << left << "Enter: 3" << setw(right_f) << right << "to show all commands" << endl;
     cout << setw(left_f) << left << "Enter: 4" << setw(right_f) << right << "to add a new command for an Animal" << endl;
     cout << setw(left_f) << left << "Enter: 0" << setw(right_f) << right << "for EXIT" << endl;
     cout << "Enter the number: ";
