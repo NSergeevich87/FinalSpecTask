@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\FinalSpecTask.workspace">
-  <int Value="12" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\FinalSpecTask.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="13" Name="CurrentLine"/>
+      <int Value="261" Name="FirstVisibleLine"/>
+      <int Value="276" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -62,49 +62,49 @@
     <TabInfo>
       <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Caballo.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="10" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Print_Menu.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="3" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Print_Menu.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="13" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Answer_Work.h" Name="FileName"/>
+      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Hamster.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Hamster.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="5" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Cat.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="3" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Answer_Work.cpp" Name="FileName"/>
-      <int Value="10" Name="FirstVisibleLine"/>
-      <int Value="35" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Base_Animals.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Base_Animals.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Professional\Documents\C++ All Projects\FinalSpecTask\C++_part\Cat.cpp" Name="FileName"/>
+      <int Value="33" Name="FirstVisibleLine"/>
+      <int Value="57" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
