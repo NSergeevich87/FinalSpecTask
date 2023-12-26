@@ -3,10 +3,8 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
-    <File Name="Base_Animals.cpp"/>
-    <File Name="Base_Animals.h"/>
-    <File Name="Answer_Work.cpp"/>
-    <File Name="Answer_Work.h"/>
+    <File Name="Camal.cpp"/>
+    <File Name="Camal.h"/>
     <File Name="Print_Menu.cpp"/>
     <File Name="Print_Menu.h"/>
     <File Name="Caballo.cpp"/>
